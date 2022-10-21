@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//This should 
 package ccc2019;
 import java.util.Scanner;
 /**
  *
  * @author SPH_SHSM
  */
-public class J3 {
+public class FixMe {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         //Read in a number
@@ -27,20 +23,20 @@ public class J3 {
             for (int j = 0; j < input.length(); j++) {
                 //if this is the first pass through the loop
                 if (j==0){
-                    //current char = charAt(i)
+                    //current char is the char at j
                     currentChar = input.charAt(j);
                     //current count = 1
                     currentCount=1;
                 }
                 //else
                 else{
-                    //previousChar=currentChar
+                    //set previousChar to currentChar
                     previousChar = currentChar;
                     //current character = charAt(i)
                     currentChar = input.charAt(j);
-                    //if charAt(i)==previousChar
+                    //if the current and previous char are the same
                     if (currentChar == previousChar){
-                        //currentCount++
+                        //increase the count
                         currentCount++;
                     }
                     //else
@@ -50,7 +46,9 @@ public class J3 {
                         //currentCount = 1
                         currentCount=1;
                     }
+                    //If we're on the last character
                     if (j==input.length()-1){
+                    	//add the count to the output
                         output+= currentCount + " " +currentChar+" ";
                     }
                     
@@ -59,6 +57,7 @@ public class J3 {
             //Print newline
             output+="\n";
         }
+        //Print the result
         System.out.println(output);
         in.close();
     }
