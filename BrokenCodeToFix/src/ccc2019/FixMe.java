@@ -15,43 +15,47 @@ public class FixMe {
 	Scanner in = new Scanner(System.in);
 //Read in a number
   
-	int lines =  in.nextInt();
-     	 String output = ("");
+	int = lines in.nextInt();
         //Loop through the lines
-     	for (int i = 0; i < lines; i++); {
-            //Read in a string
+      int i = 0; j=0>lines;
+	   //Read in a string
  int j = in.nextInt();
-     		
+     	int input	
      	String input = in.nextLine();
-            //Loop through the characters
+           string =("3+3=4");
+     	
+     	//Loop through the characters
  
- char a;
-char currentChar= a;
+
+char currentChar=i;
  Integer currentCount= 0;
- boolean previousChar;
- for (j = 0; j < input.length(); i++); 
+ int previousChar= 0;
+ for (j = 0; i <= input==lines;); 
        //if this is the first pass through the loop
  			if (j==0)   {
                     //current char is the char at currentChar = input.charAt(j);
                     //current count = 1
      
  				
- 				currentChar = input.charAt(j);currentCount=1;
+ 				currentChar = input.charAt(j);
+ 				currentCount=1;
  											}
                 //else
-     										else;
+     										else
                     //set previousChar to currentChar
- 			 (previousChar = currentChar);
-     		
+ 		               
+     					(previousChar,currentChar);
+      
+ 			char perviouseChar= 0 char currentChar= 0
                     //current character = charAt(i)
-                    currentChar == input.charAt(i);
+                    currentChar(j)=0 == input.charAt(i);
                     //if the current and previous char are the same
-  if (currentChar == previousChar);
+                    else if  (currentChar,previousChar);
                         //increase the count
-                        currentCount++;
+                        currentCount=++;
                     
                     //else
-     	             } (else);
+     	              (else);
                         //print current count + " " + previousChar
                 output + currentcount + " " +previousChar+" ";
                         //currentCount = 1
@@ -61,8 +65,8 @@ char currentChar= a;
                     if (j==input.length()-1){
                     	//add the count to the output
                          output = perviouschar = curentchar;
-                    
-
+                        output = currentcount= 3+3;
+                           
 
 
 
@@ -80,4 +84,3 @@ char currentChar= a;
         
         }
 } 
-}
